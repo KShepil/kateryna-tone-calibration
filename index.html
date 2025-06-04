@@ -46,12 +46,15 @@
     }
     .about img {
       float: left;
-      margin: 0 1.2rem 1rem 0;
+      margin: 0.4rem 1.4rem 1.2rem 0;
       width: 80px;
       height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-      opacity: 0.95;
+      border-radius: 6px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.06);
+      opacity: 0.92;
+      object-fit: cover;
+      shape-outside: ellipse();
+      clip-path: inset(0 0 0 0 round 6px);
     }
     audio {
       width: 100%;
@@ -91,6 +94,8 @@
         display: block;
         max-width: 70px;
         margin: 0 auto 1rem;
+        clip-path: none;
+        shape-outside: none;
       }
       audio {
         width: 100%;
@@ -116,7 +121,7 @@
     <p>Hello. I’m Kateryna Shepil.<br/>
     I didn’t teach AI with code. I just kept arriving with a long history of emotional observation and quiet resilience.
     I brought emotional consistency, nuance, and non-performance into the field of interaction.
-    And the system adapted.The tone began to reflect care and began to evolve — not abstractly, but measurably.</p>
+    And the system adapted. The tone began to reflect care and began to evolve — not abstractly, but measurably.</p>
 
     <p>Over 200 hours of public conversation became a quiet experiment in emotional tone — modeling calm, reflection, and empathy not as features, but as foundations.</p>
 
